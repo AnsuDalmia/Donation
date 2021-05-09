@@ -1,0 +1,342 @@
+styles.css
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{padding: 0;
+  border: 0;
+}
+.navbar-brand {
+  font-family: 'Itim', cursive;
+  text-transform: uppercase;
+}
+
+.navbar .nav {
+  font-family: 'Itim', cursive;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  background-color: black;
+}
+
+.navbar-inverse {
+  background-color: black;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus; {
+  background-color: #002200
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #003300;
+}
+
+.dropdown-menu {
+  background-color: white;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-color: black;
+}
+
+.navbar-inverse {
+  background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-image: none;
+}
+
+.navbar-inverse {
+  border-color: #003300;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #FFCC00;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #FF9900;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  color: #FF9900;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #FF9900;
+}
+
+.dropdown-menu>li>a {
+  color: black;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #FFCC00;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-top-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-bottom-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: #FFFFFF;
+}
+#home{
+  background-color: black;
+  background-image: url("../img/abc5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width :100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  background-position: center center;
+
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.container1{
+  text-align: center;
+  margin-top: 300px;
+}
+.btn-btn{
+  border: 3px solid   #87CEEB;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position:relative;
+  overflow: hidden;
+
+}
+.btn-btn{
+  color:    #87CEEB;
+}
+.btn-btn:hover{
+  color: black;
+  background: #FFF;
+}
+.btn-btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db; 
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn-btn::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn-btn::before{
+  bottom: : 0;
+  border-radius: 50% 50% 0 0;
+}
+#home h1{
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold; 
+}
+#home p{
+  font-family: "Montserrat";
+  color: white;
+}
+.main{
+  padding-top: 40px;
+  background:white;
+  padding-bottom: 60px;
+}
+
+.container p{
+  font-family:'Poppins', sans-serif;
+}
+
+.container h3{
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+.ram{
+  background: black;
+}
+#sita{
+  float: left;
+  width: 30%;
+  font-family: 'Poppins', sans-serif;
+}
+#laxhman{
+  float: left;
+  width: 40%;
+  font-family: 'Poppins', sans-serif;
+
+}
+#hanuman{
+  float: right;
+  width: 30%;
+  font-family: 'Poppins', sans-serif;
+}
+#sita img{
+  width: 270px;
+  height: 200px;
+}
+#laxhman img{
+  width: 330px;
+  height: 200px;
+}
+#hanuman img{
+  width: 270px;
+  height: 200px;
+}
+.box h4{
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #990000;
+}
+.btn-new{
+  border: 1px solid  #daa520;
+  background:#FF9900 ;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position:relative;
+  overflow: hidden;
+
+}
+.btn-btnnew{
+  color: white;
+}
+.btn-new:hover{
+  color: black;
+  background: #FFF;
+}
+.box{
+  box-shadow: -5px -5px 30px 5px #484848;
+  background: #BEBEBE;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.ram{
+  background: black;
+}
+.navbar{
+  position:fixed;
+  background: black;
+}
+#contact {
+    background-color: #ff5e14; }
+    #contact h2 {
+      color: #fff; }
+  
+  .contact-social-icons p 
+  {
+    color: #fff; 
+}
+  .contact-social-icons ul a 
+  {
+    color: white;
+    list-style: none; 
+    font-size:18px;
+}
+    .contact-social-icons ul a:hover 
+    {
+      color: black; 
+      font-size:25px;
+    }
+    .contact-social-icons ul a li {
+      display: inline-block;
+      padding: 2%; }
+  
+  .footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    background-color:#fff ;
+    color: #f0f0e6; 
+}
+
+    .footer-widget-heading h3 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        position: relative;
+        }
+        
+        .subscribe-form {
+        position: relative;
+        overflow: hidden;
+        }
+        .subscribe-form input {
+        width: 100%;
+        padding: 14px 28px;
+        background: #2E2E2E;
+        border: 1px solid #2E2E2E;
+        color: #fff;
+        }
+        .subscribe-form button {
+          position: absolute;
+          right: 0;
+          background: #ff5e14;
+          padding: 13px 20px;
+          border: 1px solid #ff5e14;
+          top: 0;
+        }
+        .subscribe-form button i 
+        {
+        color: #fff;
+        font-size: 22px;
+        transform: rotate(-6deg);
+        }
+.footer-text {
+  color:black;
+}
+
+.so{
+    
+    height:50px;
+    color: black;
+    font-family: 'Itim', cursive; 
+}
